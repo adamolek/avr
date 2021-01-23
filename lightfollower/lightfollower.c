@@ -59,7 +59,7 @@ int main()
 			phr_l -= limit;
 			if(phr_l < 0)phr_l = 0;
 			MOTOR_L = 200 * (float)phr_l / (float)diff;
-			MOTOR_L = 200 * (float)phr_r / (float)diff;
+			MOTOR_R = 200 * (float)phr_r / (float)diff;
 		}
 	}
 }
